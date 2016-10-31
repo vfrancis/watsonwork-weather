@@ -1,4 +1,4 @@
-# weather-bot
+# Weather App Sample
 
 App built with node.js to query weather information (and perhaps in the future proactive provide weather alerts).
 
