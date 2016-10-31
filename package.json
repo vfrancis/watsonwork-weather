@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.ibm.com/watsonwork/watsonwork-weather"
+    "url": "http://github.com/watsonwork/watsonwork-weather"
   },
   "engines": {
     "node": ">=4.2.x",
