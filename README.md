@@ -7,7 +7,7 @@ This app will listen for `@weather <zipcode>` and give you some cool data (US zi
 ## Deploy the app
 Assuming you just want to take this code and get it running before hacking it, the first step is to get it deployed to a live on a server so that IBM Watson Workspace validates it's up and working before pushing messages to the app. To facilitate things, you can click the button below and it'll get it going to Bluemix very easily.
 
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watsonwork/watsonwork-weather # [required])
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watsonwork/watsonwork-weather)
 
 *Note*: you can run this code locally, but then you would need to change the webhook code to get the URL of the callback. See Appendix for instructions.
 
