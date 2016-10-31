@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node lib/app.js",
-    "build": "babel app.js --out-dir lib"
+    "babel": "babel app.js --out-dir lib",
+    "build": "npm install && npm run babel"
   },
   "author": "Luis Benitez",
   "license": "Apache-2.0",
