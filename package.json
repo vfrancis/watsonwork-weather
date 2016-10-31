@@ -1,0 +1,31 @@
+{
+  "name": "weather",
+  "version": "1.0.1",
+  "description": "IBM Watson Workspace Weather Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node lib/app.js",
+    "build": "babel app.js --out-dir lib"
+  },
+  "author": "Luis Benitez",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "node-weatherunderground": "^1.2.0",
+    "request": "^2.76.0",
+    "zipcode": "^0.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.ibm.com/watsonwork/watsonwork-weather"
+  },
+  "engines": {
+    "node": ">=4.2.x",
+    "npm": ">=3.8."
+  }
+}
